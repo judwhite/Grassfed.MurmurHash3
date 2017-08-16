@@ -8,7 +8,7 @@
     <owners>Jud White</owners>
     <licenseUrl>https://github.com/judwhite/Grassfed.MurmurHash3/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/judwhite/Grassfed.MurmurHash3</projectUrl>
-    <iconUrl>http://judsonwhite.com/images/nsq_sharp.png</iconUrl>
+    <iconUrl>http://judsonwhite.com/images/Grassfed.MurmurHash3.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>MurmurHash3 x64 128-bit - a fast, non-cryptographic hash function.</description>
     <summary>MurmurHash3 x64 128-bit - a fast, non-cryptographic hash function.</summary>
