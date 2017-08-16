@@ -18,7 +18,7 @@ var bytes = Encoding.UTF8.GetBytes("The quick brown fox jumps over the lazy dog.
 var hasher = new MurmurHash3();
 var result = hasher.ComputeHash(bytes);
 
-Console.WriteLine(string.Concat(Array.ConvertAll(result, x => x.ToString("x2")));
+Console.WriteLine(string.Concat(Array.ConvertAll(result, x => x.ToString("x2"))));
 
 // Output: cd99481f9ee902c9695da1a38987b6e7
 ```
