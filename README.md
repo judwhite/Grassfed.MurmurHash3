@@ -1,6 +1,6 @@
 # Grassfed.MurmurHash3
 
-[![Build Status](https://travis-ci.org/judwhite/Grassfed.MurmurHash3.svg?branch=master)](https://travis-ci.org/judwhite/Grassfed.MurmurHash3)&nbsp;&nbsp;[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)&nbsp;&nbsp;[![NuGet version](https://badge.fury.io/nu/grassfed.murmurhash3.svg)](https://www.nuget.org/packages/grassfed.murmurhash3)
+[![Build status](https://ci.appveyor.com/api/projects/status/qhs43u199n1gpbhy?svg=true)](https://ci.appveyor.com/project/judwhite/grassfed-murmurhash3)&nbsp;&nbsp;[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)&nbsp;&nbsp;[![NuGet version](https://badge.fury.io/nu/grassfed.murmurhash3.svg)](https://www.nuget.org/packages/grassfed.murmurhash3)
 
 MurmurHash3 x64 128-bit - a fast, non-cryptographic hash function.
 
