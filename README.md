@@ -1,13 +1,14 @@
 <p align="center">
+<h2>
 <img align="left" width="64" height="64" src="http://judsonwhite.com/images/Grassfed.MurmurHash3.png">
-<h2>Grassfed.MurmurHash3</h2>
+Grassfed.MurmurHash3</h2>
 </p>
 
 [![Build status](https://ci.appveyor.com/api/projects/status/qhs43u199n1gpbhy?svg=true)](https://ci.appveyor.com/project/judwhite/grassfed-murmurhash3)&nbsp;&nbsp;[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)&nbsp;&nbsp;[![NuGet version](https://badge.fury.io/nu/Grassfed.MurmurHash3.svg)](https://www.nuget.org/packages/Grassfed.MurmurHash3)
 
 MurmurHash3 x64 128-bit - a fast, non-cryptographic hash function.
 
-Port of Austin Appleby's implementation for C#. See https://github.com/aappleby/smhasher/wiki/MurmurHash3 for more information.
+Port of Austin Appleby's implementation for C#. See https://github.com/aappleby/smhasher/wiki/MurmurHash3 for more information, and [here](https://github.com/aappleby/smhasher/blob/61a0530f28277f2e850bfc39600ce61d02b518de/src/MurmurHash3.cpp#L150) for the original source.
 
 ## Install
 
