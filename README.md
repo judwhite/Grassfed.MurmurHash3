@@ -7,7 +7,7 @@
 
 MurmurHash3 x64 128-bit - a fast, non-cryptographic hash function.
 
-Port of Austin Appleby's implementation for C#. See https://github.com/aappleby/smhasher/wiki/MurmurHash3 for more information, and [here](https://github.com/aappleby/smhasher/blob/61a0530f28277f2e850bfc39600ce61d02b518de/src/MurmurHash3.cpp#L150) for the original source.
+Port of Austin Appleby's implementation for C#. See https://github.com/aappleby/smhasher/wiki/MurmurHash3 for more information, and [here](https://github.com/aappleby/smhasher/blob/61a0530f28277f2e850bfc39600ce61d02b518de/src/MurmurHash3.cpp#L255) for the original source.
 
 ## Install
 
