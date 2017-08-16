@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grassfed.MurmurHash3", "Grassfed.MurmurHash3\Grassfed.MurmurHash3.csproj", "{CDBE769B-E4A5-489F-9E71-10ED2A0991ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grassfed.MurmurHash3.Tests", "Grassfed.MurmurHash3.Tests\Grassfed.MurmurHash3.Tests.csproj", "{3E3D6F15-5E44-4CA0-871D-9E6FD21AB403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDBE769B-E4A5-489F-9E71-10ED2A0991ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBE769B-E4A5-489F-9E71-10ED2A0991ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBE769B-E4A5-489F-9E71-10ED2A0991ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBE769B-E4A5-489F-9E71-10ED2A0991ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3D6F15-5E44-4CA0-871D-9E6FD21AB403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3D6F15-5E44-4CA0-871D-9E6FD21AB403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3D6F15-5E44-4CA0-871D-9E6FD21AB403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3D6F15-5E44-4CA0-871D-9E6FD21AB403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

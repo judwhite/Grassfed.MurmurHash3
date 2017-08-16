@@ -1,0 +1,15 @@
+*.suo
+*.csproj.user
+*.ReSharper.user
+*.sln.DotSettings
+*.sln.DotSettings.user
+*.csproj.DotSettings
+*.fpr
+*.nupkg
+TestResult.xml
+**/nuget/lib/
+bin/
+obj/
+build/
+nuget-tests/
+.vs/

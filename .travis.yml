@@ -1,0 +1,7 @@
+language: csharp
+solution: Grassfed.MurmurHash3.sln
+install:
+  - nuget install NUnit.ConsoleRunner -Version 3.7.0 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release Grassfed.MurmurHash3.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./Grassfed.MurmurHash3.Tests/bin/Release/Grassfed.MurmurHash3.Tests.dll
