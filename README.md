@@ -34,7 +34,7 @@ These benchmarks are meant to highlight the difference in speed for common paylo
 
 It's common to see the cryptographic hash functions used for non-cryptographic purposes. They're the only hash functions provided by the .NET standard library and they have a low collission factor by having good distribution.
 
-Many hash function have good distribution without being secure against preimage attacks. If speed matters for your use case there are well reearched options with empirical data to back up the claims. See https://www.strchr.com/hash_functions for more information.
+Many hash functions have good distribution without being secure against preimage attacks. If speed matters for your use case there are well reearched options with empirical data to back up the claims. See https://www.strchr.com/hash_functions for more information.
 
 The benchmarks are calculated by running 100,000 iterations of each and taking the average. They're included in the tests project.
 
