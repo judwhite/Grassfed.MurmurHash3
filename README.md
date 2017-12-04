@@ -30,7 +30,7 @@ Verify online at http://murmurhash.shorelabs.com. Use the "MurmurHash3" box in t
 
 ## Benchmarks
 
-These benchmarks are meant to highlight the difference in speed for common payload sizes between crypographic and non-cryptographic hash functions.
+These benchmarks are meant to highlight the difference in speed for common payload sizes between cryptographic and non-cryptographic hash functions.
 
 It's common to see the cryptographic hash functions used for non-cryptographic purposes. They're the only hash functions provided by the .NET standard library and they have a low collission factor by having good distribution.
 
