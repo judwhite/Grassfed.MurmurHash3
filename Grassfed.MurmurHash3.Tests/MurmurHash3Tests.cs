@@ -60,7 +60,7 @@ namespace Grassfed.MurmurHash3.Tests
                 new TestCase { Value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ", ExpectedHash = "65e611fed09fced7355e36e45b7fd9e4" },
             };
 
-            var h = new MurmurHash3();
+            var h = new MurmurHash3(0);
 
             foreach (var c in cases)
             {
@@ -78,6 +78,14 @@ namespace Grassfed.MurmurHash3.Tests
                 if (got != c.ExpectedHash)
                     Assert.Fail("'{0}' want: {1} got: {2}", c.Value, c.ExpectedHash, got);
             }
+
+            var hashWithSeed = new MurmurHash3(38);
+            var bytesSeed = Encoding.UTF8.GetBytes("test");
+            var computed = hashWithSeed.ComputeHash(bytesSeed);
+            var expectedHash = "484389ac868bb47f5eada4a4edfcd9a2";
+            var gotSeed = ByteArrayToHexString(computed);
+            if (gotSeed != expectedHash)
+                Assert.Fail("'{0}' want: {1} got: {2}", "test", expectedHash, gotSeed);
         }
 
         private static string ByteArrayToHexString(byte[] bytes)
