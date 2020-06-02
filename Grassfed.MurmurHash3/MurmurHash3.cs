@@ -16,9 +16,19 @@ namespace Grassfed.MurmurHash3
     /// </summary>
     public class MurmurHash3
     {
+        /// <param name="seed">The seed to compute the hash code</param>
+        public MurmurHash3(ulong seed = 0)
+        {
+            Seed = seed;
+        }
+
         /// <summary>Gets the size, in bits, of the computed hash code.</summary>
         /// <returns>The size, in bits, of the computed hash code.</returns>
         public int HashSize => 128;
+
+        /// <summary>Gets the seed, that will be used to compute hash.</summary>
+        /// <returns>The seed, that will be used to compute hash.</returns>
+        public ulong Seed { get; }
 
         /// <summary>Computes the hash value for the specified byte array.</summary>
         /// <param name="buffer">The input to compute the hash code for.</param>
@@ -57,8 +67,8 @@ namespace Grassfed.MurmurHash3
 
             int nblocks = count / 16;
 
-            ulong h1 = 0;
-            ulong h2 = 0;
+            ulong h1 = Seed;
+            ulong h2 = Seed;
 
             // body
             fixed (byte* pbuffer = buffer)
