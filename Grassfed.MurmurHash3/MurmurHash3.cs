@@ -16,10 +16,7 @@ namespace Grassfed.MurmurHash3
     /// </summary>
     public class MurmurHash3
     {
-        /// <summary>
-        /// todo write this
-        /// </summary>
-        /// <param name="seed">todo write this</param>
+        /// <param name="seed">The seed to compute the hash code</param>
         public MurmurHash3(ulong seed = 0)
         {
             Seed = seed;
@@ -29,9 +26,8 @@ namespace Grassfed.MurmurHash3
         /// <returns>The size, in bits, of the computed hash code.</returns>
         public int HashSize => 128;
 
-        /// <summary>
-        /// todo write this
-        /// </summary>
+        /// <summary>Gets the seed, that will be used to compute hash.</summary>
+        /// <returns>The seed, that will be used to compute hash.</returns>
         public ulong Seed { get; }
 
         /// <summary>Computes the hash value for the specified byte array.</summary>
